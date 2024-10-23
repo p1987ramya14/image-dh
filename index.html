@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Uploaded Image</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full height of the viewport */
+            background-color: #f4f4f4; /* Light gray background */
+        }
+        #image-container {
+            text-align: center;
+        }
+        img {
+            max-width: 100%; /* Responsive image */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <div id="image-container">
+        <h1>Uploaded Image</h1>
+        <img src="images/example.jpg" alt="Example Image"> <!-- Path to your image -->
+    </div>
+</body>
+</html>
